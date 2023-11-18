@@ -69,6 +69,18 @@ _Hybrid Cryptosystem_
 - If a generator meets the three conditions, its output will work well for a one-time pad, key generation, and any other cryptographic applications that need a genuinely random sequence.
 - The difficultness is when determining, is a sequence really a random. 
 
-## Grokking bitcoin
+## Cryptographic hash functions and digital signatures
+
+- Step 1. Preparation 
+- Step 2. Signing
+- Step 3. Verifying
+
+- Digital signature improves security
+- The processes of the signing and verification are based on a key pair, a private and a public key. It's done by generating first a private key and the claculating the public key from the private key. A random number generator can be used to generate the random number as a private key.
+- The key pair must be created by making first the private key, which is huge, secret number.
+- Then the public key is claculated from the private key.
+
+- Bitcoin uses the digital signatures like above explained above for most payments today, but it is not the only way of doing it. 
+- 
 
  
