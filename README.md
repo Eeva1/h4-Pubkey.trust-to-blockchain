@@ -11,5 +11,10 @@
 
 ## Hybrid Cryptosystem
 
+- Public-key algorithms are not a substitute for symmetric algorithms.
+- Public keys are not used encrypting messages, but are used to to encrypt keys, and there are two reasons for that:
+  1. Algorithms that uses public keys are slow. Generally symmetric algorithms are thousand times faster than public-key algorithms.
+  2. They are vulnerable to chosen-plainttext attacks.
+- Symmetric cryptosystems are not vulnerable for chosen-plaintext attacks. A cryptoanalyst can't perfrom encryptions as trial with an unknown key.
 - 
  
