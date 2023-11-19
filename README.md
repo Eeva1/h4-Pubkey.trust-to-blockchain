@@ -128,4 +128,5 @@ Here is Alices keyring:
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/a6d763c0-837e-4718-b3cc-1981370c53cf)
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/cf9df575-f608-4e54-af69-5144a5d2ecb9)
 
+## a) Pubkey today
 
