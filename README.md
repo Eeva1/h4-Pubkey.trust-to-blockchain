@@ -79,8 +79,53 @@ _Hybrid Cryptosystem_
 - The processes of the signing and verification are based on a key pair, a private and a public key. It's done by generating first a private key and the claculating the public key from the private key. A random number generator can be used to generate the random number as a private key.
 - The key pair must be created by making first the private key, which is huge, secret number.
 - Then the public key is claculated from the private key.
+- Bitcoin uses the digital signatures like above explained above for most payments today, but it is not the only way of doing it.
 
-- Bitcoin uses the digital signatures like above explained above for most payments today, but it is not the only way of doing it. 
-- 
+## PGP 
 
- 
+I installed and updated the required tools and made it to the point, where I created a keypair.
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/077682c5-4be3-48e0-b0aa-ed661f4ac895)
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/cece0443-692b-41d7-9b6c-4d7ac925ad2a)
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/7b7220b2-5ec7-4eeb-87d3-3aec311f90a6)
+
+I did as told, but I put my own email address there since I started the task by my own address, but there was an error..? No data and when I try to put command "micro message.txt" the command not found?
+I already thought that I start the whole task from the beginning, but since I already started like this, I try to continue...
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/72121dc8-b5a3-4021-8cd5-f70950085cdf)
+
+THis is where I ended up:
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/62f756c4-b8d8-455e-a7c2-ace78545f83f)
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/dc35a4ad-55a5-4d8b-afc1-2608cef34cd3)
+
+I wanted to solve the problem, so I created a new folder eeva.pub
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/6bf792bd-a9dc-4750-ac58-6ac715a88984)
+
+I was able to get to this point, where Eeva needs Alices key to know it's her:
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/e830c4cc-3c93-44ff-a9ee-04a92010e81c)
+
+This is where I stucked last time also.. there comes "command not found"
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/ce49d4d6-b46f-4f10-ae09-2ada94e804d1)
+
+Then I just proceed to the end and "killall"
+
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/698f5fb9-d86f-4a2b-b416-465ef1149206)
+
+And here is my main keyring:
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/4f1875e9-3010-4293-bd49-0717951ade84)
+
+Here is Alices keyring:
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/a6d763c0-837e-4718-b3cc-1981370c53cf)
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/cf9df575-f608-4e54-af69-5144a5d2ecb9)
+
+
