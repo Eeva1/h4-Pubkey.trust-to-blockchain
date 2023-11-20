@@ -167,6 +167,23 @@ I got this far..
 
 c) Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
 
+- I can send encrypted email from my Outlook:
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/efdcc85f-14c6-45f0-ab57-58091f1ea07a)
+
+Then I got it 
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/5e20b029-506a-464e-8af0-54f2c1de9250)
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/7ccc04e8-6158-47dc-a698-859985354189)
+
+Used the one-time code:
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/70e73b08-a907-47de-b0dc-6c03b4977cea)
+
+And the I got to read the message: 
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/4fa15e15-0052-42ba-a083-513b5f4f47b4)
 
 d) Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
 
