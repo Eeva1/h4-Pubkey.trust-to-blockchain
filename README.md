@@ -132,9 +132,10 @@ Here is Alices keyring:
 
 - I use IKEv2/IPsec network protocol to my VPN connection, or as a SASE (secure access service edge) security framework.
 - IKEv2/IPsec is a mix of a key management protocol (IKEv2) and a tunneling and data-transporting tunnel (IPSec).
-- IKEv2/IPsec uses the AES-256-GCM cipher to encryption, which is coupled with SHA2-384 for integrity. In addition, IKEv2/IPSec uses Perfect Forward Secrecy (PFS) with 3072-bit Diffie-Hellman keys. 
+- IKEv2/IPsec uses the AES-256-GCM cipher to encryption, which is coupled with SHA2-384 for integrity. In addition, IKEv2/IPSec uses Perfect Forward Secrecy (PFS) with 3072-bit Diffie-Hellman keys.
+- PFS is a process in which an encryption system changes its encryption keys regurlarly, so only a small bit of data can be compromised in any single breach. It switches keys after every call, message or page load. 
 
-b) Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
+## b) Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
 
 
 c) Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
