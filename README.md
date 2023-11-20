@@ -1,4 +1,4 @@
-## Communications using public-key cryptography
+Pro## Communications using public-key cryptography
 
 - symmetric algorithm is like a safe and the key is the combination
 - Diffie and Hellman in 1976 described public-key cryptgraphy.
@@ -136,6 +136,33 @@ Here is Alices keyring:
 - PFS is a process in which an encryption system changes its encryption keys regurlarly, so only a small bit of data can be compromised in any single breach. It switches keys after every call, message or page load. 
 
 ## b) Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
+
+- Started from the beginnig with the updates and this time also with this: $ sudo apt-get install gpg micro psmisc
+- I created a new key pair:
+  
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/57cfdd27-389e-4dfe-a13f-9c959541ec99)
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/44340f6e-7a5d-4668-8e4a-66b82be00ccc)
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/602e6871-e4d8-4a7a-843b-00192bbac960)
+
+
+And now I have lots of different keys:
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/94fb2d2b-0ef1-4d00-8445-cdea5f54961d)
+
+I manage to write the secret message...
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/75ec1f72-6398-40e0-bbcb-4177593ea295)
+
+I got this far..
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/85811660-67f9-458b-927c-402cc907cf98)
+
+- But in the end, I couldn't decrypt the message...:/
+
+- ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/4b7567de-c761-474c-9a75-0ba1c7c700a8)
+
+- ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/f2726a17-6a15-4d98-936a-8a3aa997853b)
 
 
 c) Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
