@@ -1,4 +1,4 @@
-Pro## Communications using public-key cryptography
+## Communications using public-key cryptography
 
 - symmetric algorithm is like a safe and the key is the combination
 - Diffie and Hellman in 1976 described public-key cryptgraphy.
@@ -133,10 +133,10 @@ Here is Alices keyring:
 - IKEv2/IPsec is a mix of a key management protocol (IKEv2) and a tunneling and data-transporting tunnel (IPSec).
 - IKEv2/IPsec uses the AES-256-GCM cipher to encryption, which is coupled with SHA2-384 for integrity. In addition, IKEv2/IPSec uses Perfect Forward Secrecy (PFS) with 3072-bit Diffie-Hellman keys.
 - PFS is a process in which an encryption system changes its encryption keys regurlarly, so only a small bit of data can be compromised in any single breach. It switches keys after every call, message or page load.
-  
-![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/de4c4da4-10f4-4462-82e6-471a7ccfad51)
-
 (https://nordvpn.com/fi/blog/ikev2ipsec/)
+(https://nordvpn.com/fi/blog/perfect-forward-secrecy/)
+
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/de4c4da4-10f4-4462-82e6-471a7ccfad51)
 
 ## b) Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
 
@@ -166,20 +166,19 @@ I got this far..
 
 - ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/f2726a17-6a15-4d98-936a-8a3aa997853b)
 
-
 c) Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
 
 - I can send encrypted email from my Outlook:
 
-![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/efdcc85f-14c6-45f0-ab57-58091f1ea07a)
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/05701420-5c42-4ada-915e-d6b26f7c28ee)
 
-Then I got it 
+Then I get the secret message notification:
 
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/5e20b029-506a-464e-8af0-54f2c1de9250)
 
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/7ccc04e8-6158-47dc-a698-859985354189)
 
-Used the one-time code:
+To open up the message I must sign in or get the one-time code:
 
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/70e73b08-a907-47de-b0dc-6c03b4977cea)
 
@@ -188,10 +187,15 @@ And the I got to read the message:
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/4fa15e15-0052-42ba-a083-513b5f4f47b4)
 
 d) Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
-
+PGP (Pretty Good Privacy)
+PGP uses SBE (Symmetric Bloc Encryption) for confidentiality, which includes the usage of the same key for encrypt and decrypt message. The key is generated randomly every time when message is encrypted, which makes it difficult to decode the content of stolen message.
+https://www.includehelp.com/computer-networks/pgp-authentication-and-confidentiality.aspx#:~:text=PGP%20uses%20Symmetric%20Block%20Encryption%20%28SBE%29%20for%20confidentiality%2C,attackers%20to%20decipher%20the%20content%20of%20intercepted%20messages.
+https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec006
 
 f) Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)
 
+I use Google Password manager to secure all my passwords. That way I don't need to remember all my passwords to sign in different pages. 
+https://passwords.google/
 
 g) Refer to sources. Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
 
@@ -200,5 +204,5 @@ https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119
 https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
 https://terokarvinen.com/2023/trust-to-blockchain/
 https://www.microsoft.com/en-us/security/business/security-101/what-is-sase
-
+https://nordvpn.com/fi/blog/perfect-forward-secrecy/
 
