@@ -211,4 +211,4 @@ g) References:
 - https://www.microsoft.com/en-us/security/business/security-101/what-is-sase
 - https://nordvpn.com/fi/blog/perfect-forward-secrecy/
 - https://www.includehelp.com/computer-networks/pgp-authentication-and-confidentiality.aspx#:~:text=PGP%20uses%20Symmetric%20Block%20Encryption%20%28SBE%29%20for%20confidentiality%2C,attackers%20to%20decipher%20the%20content%20of%20intercepted%20messages.
-- 
+- https://passwords.google/ 
