@@ -83,7 +83,7 @@ _Hybrid Cryptosystem_
 
 ## PGP 
 
-I installed and updated the required tools and made it to the point, where I created a keypair.
+I installed and updated the required tools and made it to the point, where I created a keypair. (https://terokarvinen.com/2023/pgp-encrypt-sign-verify/)
 
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/077682c5-4be3-48e0-b0aa-ed661f4ac895)
 
@@ -91,12 +91,12 @@ I installed and updated the required tools and made it to the point, where I cre
 
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/7b7220b2-5ec7-4eeb-87d3-3aec311f90a6)
 
-I did as told, but I put my own email address there since I started the task by my own address, but there was an error..? No data and when I try to put command "micro message.txt" the command not found?
+I did as told (https://terokarvinen.com/2023/pgp-encrypt-sign-verify/), but I put my own email address there since I started the task by my own address, but there was an error..? No data and when I try to put command "micro message.txt" the command not found?
 I already thought that I start the whole task from the beginning, but since I already started like this, I try to continue...
 
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/72121dc8-b5a3-4021-8cd5-f70950085cdf)
 
-THis is where I ended up:
+This is where I ended up:
 
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/62f756c4-b8d8-455e-a7c2-ace78545f83f)
 
@@ -116,7 +116,6 @@ This is where I stucked last time also.. there comes "command not found"
 
 Then I just proceed to the end and "killall"
 
-
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/698f5fb9-d86f-4a2b-b416-465ef1149206)
 
 And here is my main keyring:
@@ -128,12 +127,16 @@ Here is Alices keyring:
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/a6d763c0-837e-4718-b3cc-1981370c53cf)
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/cf9df575-f608-4e54-af69-5144a5d2ecb9)
 
-## a) Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
+## a) Pubkey today.
 
-- I use IKEv2/IPsec network protocol to my VPN connection, or as a SASE (secure access service edge) security framework.
+- I use IKEv2/IPsec network protocol to my VPN connection, which is a SASE (secure access service edge) security framework.
 - IKEv2/IPsec is a mix of a key management protocol (IKEv2) and a tunneling and data-transporting tunnel (IPSec).
 - IKEv2/IPsec uses the AES-256-GCM cipher to encryption, which is coupled with SHA2-384 for integrity. In addition, IKEv2/IPSec uses Perfect Forward Secrecy (PFS) with 3072-bit Diffie-Hellman keys.
-- PFS is a process in which an encryption system changes its encryption keys regurlarly, so only a small bit of data can be compromised in any single breach. It switches keys after every call, message or page load. 
+- PFS is a process in which an encryption system changes its encryption keys regurlarly, so only a small bit of data can be compromised in any single breach. It switches keys after every call, message or page load.
+  
+![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/de4c4da4-10f4-4462-82e6-471a7ccfad51)
+
+(https://nordvpn.com/fi/blog/ikev2ipsec/)
 
 ## b) Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
 
@@ -144,7 +147,6 @@ Here is Alices keyring:
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/44340f6e-7a5d-4668-8e4a-66b82be00ccc)
 
 ![image](https://github.com/Eeva1/h4-Pubkey.trust-to-blockchain/assets/149093822/602e6871-e4d8-4a7a-843b-00192bbac960)
-
 
 And now I have lots of different keys:
 
@@ -193,5 +195,10 @@ f) Password management. Demonstrate use of a password manager. What kind of atta
 
 g) Refer to sources. Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
 
+References: 
+https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02
+https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+https://terokarvinen.com/2023/trust-to-blockchain/
+https://www.microsoft.com/en-us/security/business/security-101/what-is-sase
 
 
